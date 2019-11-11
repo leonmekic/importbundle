@@ -18,6 +18,6 @@
       "InstallBundle\\Command\\": "vendor/Factory/InstallBundle/Command"
     }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable" : true
 }
