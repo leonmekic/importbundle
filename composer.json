@@ -1,0 +1,21 @@
+{
+  "name": "factory/installbundle",
+  "description": "Bundle that imports classes",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Leon Mekic",
+      "email": "leon0mekic@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pimcore\\Model\\DataObject\\": "var/classes/DataObject",
+      "InstallBundle\\Command\\": "vendor/Factory/InstallBundle/Command"
+    }
+  }
+}
