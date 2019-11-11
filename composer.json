@@ -17,5 +17,7 @@
       "Pimcore\\Model\\DataObject\\": "var/classes/DataObject",
       "InstallBundle\\Command\\": "vendor/Factory/InstallBundle/Command"
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable" : true
 }
